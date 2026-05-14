@@ -44,7 +44,13 @@ Below screenshot demonstrates the execution of the Active Directory Health Monit
 ![AD Health Check Execution](Screenshots/AD-Health-Check-Execution.png)
 
 ---
+## Architecture Diagram
 
+The following diagram illustrates the workflow and operational architecture of the Active Directory Health Monitoring Framework.
+
+![Architecture Diagram](Documentation/AD-Health-Monitoring-Architecture.png)
+
+---
 ## Key Features
 
 ### Automated Health Checks
