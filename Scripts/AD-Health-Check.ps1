@@ -50,9 +50,18 @@ $Services = @(
 
 foreach ($Service in $Services) {
 
-    $Status = Get-Service $Service
+    $Status = Get-Service -Name $Service -ErrorAction SilentlyContinue
 
-    Write-Host "$($Status.Name) : $($Status.Status)"
+    if ($Status) {
+
+        Write-Host "$($Status.Name) : $($Status.Status)" -ForegroundColor Green
+
+    }
+    else {
+
+        Write-Host "$Service : Service Not Found on this system" -ForegroundColor Yellow
+
+    }
 }
 
 Write-Host "`nHealth Check Completed."
