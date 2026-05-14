@@ -37,6 +37,13 @@ The goal of this framework is to proactively identify infrastructure issues befo
 - Enterprise Infrastructure Monitoring
 
 ---
+## Project Execution Screenshot
+
+Below screenshot demonstrates the execution of the Active Directory Health Monitoring Framework in a production environment.
+
+![AD Health Check Execution](Screenshots/AD-Health-Check-Execution.png)
+
+---
 
 ## Key Features
 
